@@ -1,0 +1,112 @@
+ 
+ **********************************************
+ *** Specfem 2-D Mesher - MPI version       ***
+ **********************************************
+ 
+ Reading the parameter file...
+ 
+ Title of the simulation: ZH_kernel
+ 
+ 
+ Receiver lines:
+   Nb of line sets =            1
+ 
+ Materials:
+   Nb of solid, fluid or porous materials =            1
+ 
+ --------
+ Material #           1  isotropic
+ rho,cp,cs   =    3200.00000000000        5200.00000000000     
+   3200.00000000000     
+ Qkappa, Qmu =    9998.00000000000        9998.00000000000     
+ Material is solid
+ --------
+ 
+ Mesh from internal meshing:
+ 
+ Reading interface data from file: DATA/./interfaces.dat
+ Reading            2  points for interface            1
+ Reading            2  points for interface            2
+ 
+ Total number of layers in z direction =            1
+ There are           40  spectral elements along Z in layer            1
+ 
+ Total number of spectral elements along X =          320
+ Total number of spectral elements along Z =           40
+ 
+ Regions:
+   Nb of regions in the mesh =            1
+ 
+ ------
+ Region            1
+ IX from            1  to          320
+ IZ from            1  to           40
+ Material #            1  isotropic
+ Material is solid
+ vp     =    5200.000    
+ vs     =    3200.000    
+ rho    =    3200.000    
+ Poisson's ratio =   0.1952381    
+ QKappa =    9998.000    
+ Qmu    =    9998.000    
+ ------
+ Total number of spectral elements         =        12800
+ 
+ 
+ Parameter file successfully read 
+ 
+ The mesh contains        12800  elements
+ 
+ Control elements have            4  nodes
+ 
+ Source           1
+   Position xs, zs =    1490000.00000000        190000.000000000     
+ 
+   Source type (1=force, 2=moment tensor):            1
+   Force source:
+   Angle of the source (deg) =   0.000000000000000E+000
+   Multiplying factor  =    8500000000.00000     
+ 
+   Time function type (1=Ricker, 2=First derivative, 3=Gaussian, 4=Dirac, 5=Heav
+ iside, 8=Read from file, 9=burst):           1
+   Ricker wavelet (second-derivative):
+   Frequency, delay =   0.200000000000000       0.000000000000000E+000
+ 
+ Reading interface data from file: DATA/./interfaces.dat
+ 
+ Mesh dimensions: 
+   Min and max value of X in the grid =   0.000000000000000E+000
+   1600000.00000000     
+   Min and max value of Z in the grid =   0.000000000000000E+000
+   200000.000000000     
+ 
+ 
+ Partitioning method: SCOTCH
+ 
+ nedges_coupled (acoustic/elastic)     =            0
+ nedges_coupled (acoustic/poroelastic) =            0
+ nedges_coupled (poroelastic/elastic)  =            0
+ 
+ slice            0  has number of spectral elements =        1600
+ slice            1  has number of spectral elements =        1629
+ slice            2  has number of spectral elements =        1571
+ slice            3  has number of spectral elements =        1600
+ slice            4  has number of spectral elements =        1595
+ slice            5  has number of spectral elements =        1600
+ slice            6  has number of spectral elements =        1605
+ slice            7  has number of spectral elements =        1600
+ 
+ Position (x,z) of the source =    1490000.00000000        190000.000000000     
+ 
+ 
+ writing the DATA/STATIONS file
+ 
+ 
+ There are            1  receivers
+ 
+ Target positions (x,z) of the            1  receivers
+ 
+ Receiver            1  =    780000.000000000        200000.000000000     
+ 
+ This will be a parallel simulation on            8  processor cores
+ 

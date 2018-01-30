@@ -1,0 +1,19 @@
+ istart =        8750 iend =       17500
+ tstart =   174.99999608844519      tend =   349.99999217689037     
+ taper_len=        1313
+ BXX
+ max_center =       12482
+ taper_len=        1500
+ Norm =   196.79886278870254     
+ BXY
+ max_center =       12482
+ taper_len=        1500
+ norm < EPS for file 
+ Norm =   0.0000000000000000     
+ BXZ
+ max_center =       12483
+ taper_len=        1500
+ Norm =   397.20956143417425     
+ *************************
+ The input files (S****.AA.BXX/BXY/BXZ.adj) needed to run the adjoint simulation are in SEM
+ *************************

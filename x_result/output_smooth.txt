@@ -1,0 +1,23 @@
+ Running XSMOOTH_SEM on           8 processors
+ command line arguments:
+   smoothing sigma_h , sigma_v                :    12000.00       6000.000    
+   smoothing scalelengths horizontal, vertical:    33941.12       16970.56    
+   input dir : OUTPUT_FILES
+   output dir: OUTPUT_FILES
+ 
+ 
+ Scaling values: min/max =   2.2619450E+08  4.5238944E+08
+ written: OUTPUT_FILES/proc000000_beta_kernel_smooth.bin
+ 
+  Min / Max data value before smoothing =   0.0000000E+00  8.8555855E-13 for 
+ beta_kernel
+  Min / Max data value after smoothing  =   3.2758506E-26  3.6487798E-14 for 
+ beta_kernel
+ Computation time with CPU:   275.3960    
+ Computation time with CPU:   259.8440    
+ Computation time with CPU:   263.3560    
+ Computation time with CPU:   255.1200    
+ Computation time with CPU:   270.9480    
+ Computation time with CPU:   277.2880    
+ Computation time with CPU:   265.2480    
+ Computation time with CPU:   261.2120    
